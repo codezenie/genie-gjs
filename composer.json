@@ -1,0 +1,32 @@
+{
+            "name": "genie/gjs",
+            "type": "library",
+            "description": "Partials based on GJS",
+            "keywords": [
+                "Laravel"
+            ],
+            "author":{
+                "name": "codezgenie",
+                "email": "mzrusdid@gmail.com",
+                "homepage": "https://github.com/codezgenie"
+
+            },
+            "autoload": {
+                "psr-4": {
+                    "Genie\\GJS\\": "src/"
+                }
+            },
+            "autoload-dev": {},
+
+            "extra": {
+                "copyright": "codezgenie",
+                "laravel": {
+                    "providers": [
+                        "Genie\\GJS\\GJSServiceProvider"
+                    ],
+                    "aliases": {}
+                }
+            },
+            "version":"1.0.0",
+            "license": "MIT"
+        }
