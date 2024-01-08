@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/gjs-canvas', function () {
-    return view('gjs::gjs-welcome');
+Route::get('/{gjscomponent}', function(string $gjstype) {
+    return view('gjs::gjs-welcome')->with('gjscomponent', $gjstype);
 });
 

@@ -2,7 +2,7 @@
     <h1>GrapesJS Canvas</h1>
 </div>
 
-
+<x-slot name="title">{{$data["topic"]}}</x-slot>
 @push('css')
 <style>
     /* Let's highlight canvas boundaries */

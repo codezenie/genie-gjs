@@ -1,3 +1,3 @@
 <x-gjs-master>
-    <x-gjs-canvas />
+    <x-dynamic-component :component="$gjscomponent" />
 </x-gjs-master>

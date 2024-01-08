@@ -19,6 +19,7 @@ class GJSServiceProvider extends ServiceProvider
 \Illuminate\Support\Facades\Blade::component('gjs-guest',  \Genie\GJS\App\View\Components\GJSGuestComponent::class);
 \Illuminate\Support\Facades\Blade::component('gjs-hello-world',  \Genie\GJS\App\View\Components\GJS\HelloWorldComponent::class);
 \Illuminate\Support\Facades\Blade::component('gjs-canvas',  \Genie\GJS\App\View\Components\GJS\CanvasComponent::class);
+\Illuminate\Support\Facades\Blade::component('gjs-block',  \Genie\GJS\App\View\Components\GJS\BlockComponent::class);
 ##||ANOTHERCOMPONENT||##
 
 
